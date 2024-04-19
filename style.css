@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(120, 119, 119);
+}
+label {
+  font-style: normal;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  background-color: rgb(80, 80, 156);
+  border-radius: 5px;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 58px;
+  margin-left: 43px;
+}
+#starting {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+li {
+  list-style: none;
+  margin-top: 7px;
+  padding: 20px;
+}
+a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  position: relative; /* Add this line */
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background-color: white;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+a:hover::after {
+  transform: scaleX(1.3);
+}
+
+#home_text {
+  font-size: 65px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+img {
+  margin-top: -330px;
+  width: 550px;
+  height: 400px;
+  margin-left: 600px;
+}
+
+i {
+  background-color: rgb(189, 195, 200);
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  margin-top: -410px;
+}
